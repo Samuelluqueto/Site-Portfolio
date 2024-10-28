@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Designer</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header class="one">
+        <h1>Portfólio de Designer</h1>
+        <img id="logo" src="logo.PNG">
+    </header>
+
+    <header class="two">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#trabalhos">Trabalhos</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1><span style="color: #007BFF;">Bem-vindo ao Meu Portfólio!</span></h1>
+            <p>Sou um designer apaixonado por criar experiência visuais impactantes.</p>
+        </section>
+
+        <section>
+            <img src="eventos1 (1).jpg" style="width:200px">
+            <img src="eventos1 (2).jpg" style="width: 200px;">
+            <img src="eventos1 (3).jpg" style="width:200px;">
+            <img src="eventos1 (4).jpg" style="width: 200px;">
+            <img src="eventos1 (5).jpg" style="width: 200px;">
+        </section>
+
+        <section>
+            <div>
+                <h2>Faça um orçamento sem compromisso</h2>
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <br>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <footer>
+        <p>©️ 2024 Portfólio de Designer. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
